@@ -6,6 +6,9 @@ var fs = require('fs')
 var path = require('path')
 var os = require('os')
 
+var aws_access_key_id = "aws_access_key_id";
+var aws_secret_access_key = "aws_secret_access_key";
+
 var win32 = os.platform() === 'win32'
 
 var noop = function () {}
